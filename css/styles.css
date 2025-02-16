@@ -22,6 +22,8 @@ body {
 
     color: white;
 
+
+
     text-align: center;
 }
 
@@ -38,10 +40,18 @@ p {
     font-family: "SeafordRegItalic";
 }
 
-h2 h3 h4 h5 h6 {
+h2 {
     font-family: "SeafordBold";
 }
 
+h3 {
+    font-family: "SeafordBoldItalic";
+    color: coral;
+}
+
+li {
+    font-family: "SeafordBold";
+}
 .box   {
     height: 100px;
     width: 100px;
