@@ -13,9 +13,11 @@
     src: url('../fonts/SeafordRgIt.ttf') format('truetype');
 }
 
+
+
 body {
     background: url('../images/brickwall001tf2.jpg');
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     background-repeat: repeat;
 
@@ -108,4 +110,18 @@ li {
    }
    .rest{
     float: left;
+   }
+
+   .favoriteshows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .imageleft{
+    float: left;
+   }
+
+   .textright{
+    float: right;
    }
