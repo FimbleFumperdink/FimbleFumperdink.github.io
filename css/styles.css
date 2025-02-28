@@ -21,12 +21,12 @@ body {
 
     color: white;
 
-
+    font-family: "SeafordBold";
 
     text-align: center;
 
-    
     margin: auto;
+    
     width: 60%; height: 60%; 
 }
 
@@ -85,7 +85,6 @@ li {
   }
   
   .topnav a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -98,9 +97,15 @@ li {
     background-color: #414141;
     color: coral;
   }
-  
 
   .topnav a.active {
     background-color: coral;
     color: white;
+    float: left;
   }
+   .news{
+    float: right;
+   }
+   .rest{
+    float: left;
+   }
