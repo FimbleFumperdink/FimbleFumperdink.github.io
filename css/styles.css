@@ -17,7 +17,7 @@
 
 body {
     background: url('../images/brickwall001tf2.jpg');
-    background-size:cover;
+    background-size:auto;
     background-position: center;
     background-repeat: repeat;
 
@@ -30,11 +30,18 @@ body {
     margin: auto;
     
     width: 60%; height: 60%; 
+
+    font-size:20px;
 }
 
 .welcome {
     font-family: 'SeafordBold';
-    text-shadow: 4px;
+    text-shadow: 8px 8px black;
+    background-image: url('../images/tf2conceptmapart.jpg');
+    background-size:cover;
+    font-size: 100px;
+    border: 6px black;
+    padding: 150px;
 }
 
 h1 {
@@ -64,11 +71,7 @@ li {
 .boxheader{
 
     height:max-content;
-    width: 100%;
-    background-image: url('../images/timallen.jpg');
-    background-size: contain;
-    background-repeat: repeat-x;
-    background-position-y: top;
+    border: 6px black;
 
 }
 
